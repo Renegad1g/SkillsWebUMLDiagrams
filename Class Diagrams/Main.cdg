@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Main">
+  <ClassDiagramComponents>
+    <Class name="User" package="" visibility="public" xPosition="53.0" yPosition="34.0">
+      <Fields>
+        <Field name="id" type="Long" visibility="private"/>
+        <Field name="googleId" type="Long" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getId" returnType="Long" visibility="public"/>
+        <Method name="setId" returnType="Long" visibility="public">
+          <Argument type="Long" name="id"/>
+        </Method>
+        <Method name="getGoogleId" returnType="Long" visibility="public"/>
+        <Method name="setGoogleId" returnType="Long" visibility="public">
+          <Argument type="Long" name="id"/>
+        </Method>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="String" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Node" package="" visibility="public" xPosition="304.0" yPosition="34.0">
+      <Fields>
+        <Field name="id" type="Long" visibility="private"/>
+        <Field name="title" type="String" visibility="private"/>
+        <Field name="description" type="String" visibility="private"/>
+        <Field name="stateId" type="Long" visibility="private"/>
+        <Field name="desiredStart" type="Date" visibility="private"/>
+        <Field name="desiredFinish" type="Date" visibility="private"/>
+        <Field name="start" type="Date" visibility="private"/>
+        <Field name="finish" type="Date" visibility="private"/>
+        <Field name="userId" type="Long" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="State" package="" visibility="public" xPosition="526.0" yPosition="34.0">
+      <Fields>
+        <Field name="id" type="Long" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Dependencies" package="" visibility="public" xPosition="743.0" yPosition="36.0">
+      <Fields>
+        <Field name="id" type="Long" visibility="private"/>
+        <Field name="nodeId" type="Long" visibility="private"/>
+        <Field name="dependsOnNodeId" type="Long" visibility="private"/>
+        <Field name="userId" type="Long" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
